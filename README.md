@@ -1,150 +1,150 @@
-# AI GitHub Trending — 2026-05-16
+# AI GitHub Trending — 2026-05-17
 
-_Auto-updated daily at 7am ET. [Archive](./archive/)._
+_Auto-updated daily at 7am ET. [Archive](./archive/)._ 
 
 ## Editor's Take
 
-ruvnet/RuView accelerates from +1,715 to +1,859 and moves from #6 to #1, the first time a non-skills, non-agentic-framework project has held the velocity lead for two consecutive days in this archive. Yesterday's top performers tell a sharply different story: tinyhumansai/openhuman drops 62% from +3,329 to +1,271, while mattpocock/skills (+2,987), rohitg00/agentmemory (+1,879), and anthropics/skills (+625) have each fallen off trending entirely, narrowing the skills cluster back to its durable core in obra/superpowers and K-Dense-AI/scientific-agent-skills. Two new Claude Code-adjacent tools debut on trending today: colbymchenry/codegraph (a pre-indexed knowledge graph for token reduction) and DenisSergeevitch/agents-best-practices (provider-neutral skill design for Codex and Claude Code alike), suggesting the community has shifted from extending Claude Code to optimizing and formalizing it. The infrastructure tier is filling in: lightseekorg/tokenspeed and haydenbleasel/files-sdk both debut this week with per-day velocities competitive with established projects, pointing to a wave of foundation-layer tooling aimed at making production agent deployments cheaper and more reliable.
+nexu-io/open-design arrives as the most-starred project in this archive's 30-day window at 43,049 stars in 19 days — averaging 2,265 per day — positioning itself as a local-first alternative to Claude Design with 19 skills and 71 design systems runnable on any coding agent CLI. Its six-day-old companion nexu-io/html-anything (2,638 stars, ~440/day) confirms a coordinated push to claim the AI-assisted design layer from both structured and freeform angles. Yesterday's top performers have largely rotated out: ruvnet/RuView, obra/superpowers, and supertone-inc/supertonic all dropped off trending, while tinyhumansai/openhuman accelerated from +1,271 to +1,549 to reclaim the #1 trending spot. Three significant debuts broaden today's scope: HKUDS/CLI-Anything frames the challenge as making any software agent-native at the CLI layer, KeygraphHQ/shannon (42,450 total stars) brings autonomous AI penetration testing to trending for the first time in this archive, and dograh-hq/dograh launches as a standalone open-source voice agent platform. The pattern across the full top 20 is a shift toward production deployment tooling — virtual filesystems, design pipelines, and voice interfaces — rather than another generation of agent frameworks.
 
 ## Top 20
 
-### 1. [ruvnet/RuView](https://github.com/ruvnet/RuView) — ⭐ 57,845 (+1,859)
-**Rust** · `ai` `wifi-sensing` `spatial-intelligence` `rust` `presence-detection`
+### 1. [nexu-io/open-design](https://github.com/nexu-io/open-design) — ⭐ 43,049 (~+2,265/day avg)
+**TypeScript** · `ai-agents` `ai-design` `design-systems` `figma-alternative` `local-first`
 
-Turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection. Accelerates from +1,715 yesterday to +1,859 today, rising from #6 to #1 and holding its top-10 position for a second consecutive day without any announced new release; the only WiFi-CSI spatial-AI project in this archive.
-
----
-
-### 2. [obra/superpowers](https://github.com/obra/superpowers) — ⭐ 193,373 (+1,648)
-**Shell** · `agents` `agentic` `skills` `shell` `developer-tools`
-
-An agentic skills framework and software development methodology. Holds second position for a second consecutive day; at 193,373 total stars it remains the highest-starred project ever to appear in this archive and is one of only three projects to hold top-five position across every day it has appeared.
+Local-first, open-source alternative to Anthropic's Claude Design. 19 Skills, 71 brand-grade design systems. Generates web, desktop, and mobile prototypes, slides, images, videos, and HyperFrames with sandboxed preview and HTML/PDF/PPTX/MP4 export. Runs on Claude Code, Codex, Cursor, Gemini, OpenCode, Qwen, Copilot, Hermes, and Kimi CLI. The most-starred project in this archive's 30-day window at 19 days old, with no announced media event driving the spike.
 
 ---
 
-### 3. [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) — ⭐ 9,836 (+1,271)
+### 2. [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) — ⭐ 11,478 (+1,549)
 **Rust** · `ai` `rust` `local-ai` `personal-ai`
 
-Your Personal AI super intelligence. Private, simple, and extremely powerful. Drops from yesterday's #1 (+3,329) to #3 at +1,271 today, a 62% single-day velocity decline — the sharpest deceleration from a prior #1 position in this 30-day archive window.
+Your Personal AI super intelligence. Private, simple, and extremely powerful. Reclaims the #1 trending spot today at +1,549, accelerating from yesterday's +1,271 — the opposite of the typical deceleration pattern after a project's trending debut. The only Rust-primary personal AI project to hold a top-five trending position across multiple days in this archive window.
 
 ---
 
-### 4. [supertone-inc/supertonic](https://github.com/supertone-inc/supertonic) — ⭐ 6,354 (+719)
-**Swift** · `tts` `ai` `onnx` `multilingual` `on-device`
-
-Lightning-fast, on-device, multilingual TTS running natively via ONNX. Third consecutive day in the top 10; moderates from +1,128 to +719 but remains the only Swift-primary AI project in this archive's top 20 and the fastest-growing on-device inference project by total accumulated stars in the current window.
-
----
-
-### 5. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — ⭐ 22,752 (+646)
+### 3. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) — ⭐ 23,509 (+673)
 **Python** · `agents` `ai` `skills` `science` `research`
 
-Ready-to-use Agent Skills for research, science, engineering, analysis, finance, and writing. Holds #5 for a second consecutive day with near-identical velocity (+646 vs. +654 yesterday), the most stable top-five performer across the last two archive days and the only domain-specialized science-skills package to maintain this rank.
+Ready-to-use agent skills for research, science, engineering, analysis, finance, and writing. Holds a top-five position for a third consecutive day, gaining +673 today versus +646 yesterday — the most stable velocity trend across any project in the current 30-day window.
 
 ---
 
-### 6. [kyegomez/OpenMythos](https://github.com/kyegomez/OpenMythos) — ⭐ 13,012 (~+465/day avg)
-**Python** · `ai` `claude` `pytorch` `ml` `anthropic`
+### 4. [kyegomez/OpenMythos](https://github.com/kyegomez/OpenMythos) — ⭐ 13,066 (~+451/day avg)
+**Python** · `ai` `claude` `ml` `pytorch` `attention`
 
-A theoretical reconstruction of the Claude Mythos architecture, built from first principles using publicly available research literature. Averaging ~465 stars per day over 28 days since creation on 2026-04-18; one of the longest-running high-velocity projects in the current window and the leading practitioner resource for researchers exploring Claude's internal architecture.
-
----
-
-### 7. [browser-use/browser-harness](https://github.com/browser-use/browser-harness) — ⭐ 12,856 (~+443/day avg)
-**Python** · `llm` `browser-agent` `browser-automation` `ai-agent` `playwright`
-
-A self-healing browser harness that enables LLMs to complete any web task. Averaging ~443 stars per day over 29 days since creation on 2026-04-17; the only browser-automation LLM harness in this archive's current window, with self-healing designed to handle DOM instability that breaks conventional Playwright scripts.
+A theoretical reconstruction of the Claude Mythos architecture built from first principles using publicly available research literature. Averaging ~451 stars per day over 29 days since creation on 2026-04-18; one of the two longest-running high-velocity projects in this archive window and the leading practitioner resource for researchers exploring Claude's internal architecture.
 
 ---
 
-### 8. [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) — ⭐ 2,070 (+397)
+### 5. [nexu-io/html-anything](https://github.com/nexu-io/html-anything) — ⭐ 2,638 (~+440/day avg)
+**HTML** · `ai-agents` `ai-design` `claude-code` `generative-ai` `local-first`
+
+The agentic HTML editor — local AI agent writes the HTML, you ship it. 75 skills across 9 surfaces (magazine, deck, poster, XHS/tweet, prototype, data report, HyperFrames). Sandboxed preview with one-click export to WeChat, X, Zhihu, HTML, and PNG. Zero API key — works with Claude Code, Cursor, Codex, Gemini, Copilot, OpenCode, Qwen, and Aider. Six days old at ~440/day; companion project to nexu-io/open-design.
+
+---
+
+### 6. [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) — ⭐ 2,920 (+416)
 **TypeScript** · `claude-code` `knowledge-graph` `ai` `token-efficiency`
 
-Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local. Debuts on trending today at +397; targets the token-cost and latency problem inside Claude Code sessions specifically, the first tool in this archive aimed at optimizing Claude Code's own resource consumption rather than extending its capabilities.
+Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local. Second consecutive day trending, growing from +397 to +416; the only project in this archive whose stated purpose is reducing Claude Code's own resource consumption rather than extending its capabilities.
 
 ---
 
-### 9. [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — ⭐ 14,038 (+356)
+### 7. [KeygraphHQ/shannon](https://github.com/KeygraphHQ/shannon) — ⭐ 42,450 (+335)
+**TypeScript** · `ai` `pentesting` `security` `autonomous`
+
+Autonomous AI pentester for web applications and APIs with vulnerability testing. Debuts on trending today at +335; the first dedicated AI security testing tool to appear in this archive's trending data and one of only three projects in today's top 20 with more than 40,000 total stars.
+
+---
+
+### 8. [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) — ⭐ 638 (~+319/day avg)
+**None** · `agents` `ai-agents` `claude-code` `codex` `mcp`
+
+Provider-neutral Agent Skill design patterns for Codex, Claude Code, and agentic harness design. Two days old at ~319/day; the fastest debut velocity for a documentation-focused repository in this archive's 30-day window, signaling continued community demand for formalized agent development practice.
+
+---
+
+### 9. [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) — ⭐ 35,199 (+333)
+**Python** · `ai` `agents` `cli` `developer-tools`
+
+Making ALL software agent-native. Debuts on trending at +333; frames the agent-native challenge at the CLI integration layer rather than at the model or framework layer. The second-largest total star count of any project debuting on trending in today's report, behind only KeygraphHQ/shannon.
+
+---
+
+### 10. [Anil-matcha/Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — ⭐ 14,745 (+317)
 **JavaScript** · `ai` `generative-ai` `video-generation` `image-generation` `open-source`
 
-Open-source alternative to AI video platforms with 200+ models and free AI image and video generation. At 14,038 total stars with +356 today, the only multi-modal generative AI platform in today's top 10 and the broadest-model-count open-source video generator in this archive.
+Open-source alternative to AI video platforms with 200+ models and free AI image and video generation. Holds a top-10 position for a second consecutive day, moderating from +356 to +317; the broadest-model-count open-source multimodal generation platform in the current archive window.
 
 ---
 
-### 10. [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) — ⭐ 5,408 (~+258/day avg)
+### 11. [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) — ⭐ 5,491 (~+249/day avg)
 **JavaScript** · `ai-image-generation` `gpt-image-2` `prompt-engineering` `skills` `agents`
 
-370+ reverse-engineered GPT-Image-2 cases and 20+ industrial-grade templates, continuously updated. Averaging ~258 stars per day over 21 days since creation on 2026-04-25; image-generation practitioner tooling is moderating relative to agent tooling but this project has the second-largest total star count among generative-image resources in the current 30-day window.
+370+ reverse-engineered GPT-Image-2 cases and 20+ industrial-grade templates, continuously updated. Averaging ~249 stars per day over 22 days since creation on 2026-04-25; the largest practitioner prompt-engineering resource for image generation in the current 30-day window by total star count.
 
 ---
 
-### 11. [yaojingang/yao-open-prompts](https://github.com/yaojingang/yao-open-prompts) — ⭐ 2,074 (~+207/day avg)
-**Python** · `ai` `prompt-engineering` `prompts` `chinese-prompts`
+### 12. [dograh-hq/dograh](https://github.com/dograh-hq/dograh) — ⭐ 1,396 (+287)
+**Python** · `voice` `agents` `ai` `open-source`
 
-Yao Open Prompts: a Chinese AI prompt library covering work, learning, content, marketing, and life scenarios. Averaging ~207 stars per day over 10 days since creation on 2026-05-06; the highest-velocity Chinese-language prompt library in this archive and a consistent signal that packaged prompt engineering continues to attract non-English-speaking developer communities.
+Open Source Voice Agent Platform. Debuts on trending today at +287; the first dedicated voice agent platform to appear in this archive. With dograh and shannon both debuting on the same day, today marks the broadest single-day topical expansion in the 30-day window — voice and security AI entering trending simultaneously.
 
 ---
 
-### 12. [crynta/terax-ai](https://github.com/crynta/terax-ai) — ⭐ 3,172 (~+127/day avg)
+### 13. [NirDiamant/agents-towards-production](https://github.com/NirDiamant/agents-towards-production) — ⭐ 19,706 (+225)
+**Jupyter Notebook** · `agents` `generative-ai` `production` `tutorials`
+
+End-to-end, code-first tutorials for building production-grade GenAI agents. Debuts on trending at +225; from the same author as NirDiamant/Agent_Memory_Techniques (323 stars, created 2026-05-05), making Nir Diamant the most consistently starred individual contributor of educational agent content in this archive window.
+
+---
+
+### 14. [strukto-ai/mirage](https://github.com/strukto-ai/mirage) — ⭐ 2,336 (~+212/day avg)
+**TypeScript** · `ai-agents` `agent-tools` `claude-code` `virtual-filesystem` `llm-agents`
+
+A unified virtual filesystem for AI agents. Eleven days old at ~212/day; the only dedicated VFS abstraction for agent sandboxing in this archive, enabling agents to operate on isolated file trees without direct host filesystem access. Supports Claude Code, LangChain, and OpenAI Agents.
+
+---
+
+### 15. [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills) — ⭐ 5,035 (~+194/day avg)
+**CSS** · `agent` `claude` `gpt-image-2` `rag` `skills`
+
+ConardLi's open-source skills collection covering web design, knowledge retrieval, and image generation. Averaging ~194 stars per day over 26 days since creation on 2026-04-21; the highest-starred CSS-primary skills repository in this archive and the only skills collection with explicit RAG and GPT-Image-2 integration in its topic list.
+
+---
+
+### 16. [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) — ⭐ 62,048 (+180)
+**Jupyter Notebook** · `agents` `ai` `tutorial` `microsoft`
+
+12 lessons to get started building AI agents. Enters trending at +180; with 62,048 total stars it is the highest-total-starred project in today's top 20 by a significant margin, and its trending appearance signals sustained educational demand for agent fundamentals beyond the framework and practitioner layers.
+
+---
+
+### 17. [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) — ⭐ 3,575 (~+137/day avg)
+**TypeScript** · `coding-agent` `deepseek` `llm` `prompt-caching` `terminal`
+
+DeepSeek-native AI coding agent for the terminal, engineered around prefix-cache stability. Averaging ~137 stars per day over 26 days since creation on 2026-04-21; targets the cache instability that degrades long coding sessions with prefix-cached models, a technical niche with no direct equivalent in this archive.
+
+---
+
+### 18. [crynta/terax-ai](https://github.com/crynta/terax-ai) — ⭐ 3,470 (~+133/day avg)
 **TypeScript** · `ai` `terminal` `tauri` `rust` `code-editor`
 
-Lightweight (7MB) AI terminal emulator built in Rust and Tauri and React. Averaging ~127 stars per day over 25 days since creation on 2026-04-21; the only AI-native terminal emulator in this archive and notable for footprint — 7MB is smaller than most AI CLI tools by an order of magnitude.
+Lightweight (7MB) AI terminal emulator built in Rust, Tauri, and React. Averaging ~133 stars per day over 26 days since creation on 2026-04-21; at 7MB it is smaller than most AI CLI tools by an order of magnitude and the only AI-native terminal emulator in this archive.
 
 ---
 
-### 13. [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) — ⭐ 3,147 (~+126/day avg)
-**TypeScript** · `llm` `coding-agent` `deepseek` `ai-coding` `prompt-caching`
+### 19. [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) — ⭐ 1,489 (~+115/day avg)
+**Python** · `agentic-ai` `ai-agents` `claude-code` `mcp` `learning-roadmap`
 
-DeepSeek-native AI coding agent for the terminal, engineered around prefix-cache stability. Averaging ~126 stars per day over 25 days since creation on 2026-04-21; targets the cache instability that degrades long coding sessions with prefix-cached models, a technical niche with no direct equivalent in this archive.
-
----
-
-### 14. [raiyanyahya/how-to-train-your-gpt](https://github.com/raiyanyahya/how-to-train-your-gpt) — ⭐ 1,582 (~+122/day avg)
-**Jupyter Notebook** · `llm` `deep-learning` `gpt` `machine-learning` `educational`
-
-Build a modern LLM from scratch — every line commented, explained simply. Averaging ~122 stars per day over 13 days since creation on 2026-05-03; covers attention, tokenization, transformers, and LLaMA-style architecture with PyTorch, and is the fastest-growing LLM-education resource in this archive's current window.
+Agentic AI Chinese learning map — structured learning path from zero, with exercises and required reading per stage. Trilingual (Traditional Chinese, Simplified Chinese, English). Thirteen days old at ~115/day; the highest-velocity trilingual agentic AI educational resource in this archive and the only structured curriculum covering MCP and Claude Skills in Chinese.
 
 ---
 
-### 15. [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — ⭐ 2,886 (~+120/day avg)
-**JavaScript** · `ai` `ai-agents` `cad` `text-to-cad` `robotics`
+### 20. [raiyanyahya/how-to-train-your-gpt](https://github.com/raiyanyahya/how-to-train-your-gpt) — ⭐ 1,606 (~+115/day avg)
+**Jupyter Notebook** · `llm` `deep-learning` `gpt` `transformers` `educational`
 
-A collection of agent skills for CAD, robotics, and hardware design. Averaging ~120 stars per day over 24 days since creation on 2026-04-22; the only CAD-native agent skills library in this archive, filling the gap between the agent framework layer and hardware and manufacturing domain tooling.
-
----
-
-### 16. [lightseekorg/tokenspeed](https://github.com/lightseekorg/tokenspeed) — ⭐ 1,028 (~+103/day avg)
-**Python** · `llm` `deepseek` `inference` `blackwell`
-
-TokenSpeed is a speed-of-light LLM inference engine. Averaging ~103 stars per day over 10 days since creation on 2026-05-06; targets LLM inference throughput on Blackwell GPUs and positions alongside DeepSeek, Qwen, and Kimi model families.
-
----
-
-### 17. [haydenbleasel/files-sdk](https://github.com/haydenbleasel/files-sdk) — ⭐ 718 (~+90/day avg)
-**TypeScript** · `agents` `storage` `s3` `cloudflare` `files`
-
-A unified storage SDK for object and blob backends — S3, R2, Google Cloud Storage, Cloudflare, MinIO — with one small, honest API. Averaging ~90 stars per day over 8 days since creation on 2026-05-08; infrastructure-layer file access abstraction targeting AI agents that need reliable multi-provider storage without vendor lock-in.
-
----
-
-### 18. [opensquilla/opensquilla](https://github.com/opensquilla/opensquilla) — ⭐ 864 (~+86/day avg)
-**Python** · `ai-agents` `llm` `mcp` `memory` `skills`
-
-Token-efficient AI agent with the same budget and higher intelligence density. Averaging ~86 stars per day over 10 days since creation on 2026-05-06; positions as a compression-layer agent rather than an orchestration layer, with MCP support and built-in memory — the only project in this archive with that specific framing.
-
----
-
-### 19. [cosmicstack-labs/mercury-agent](https://github.com/cosmicstack-labs/mercury-agent) — ⭐ 2,215 (~+85/day avg)
-**TypeScript** · `ai-agent` `ai-assistant` `llm`
-
-Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram. Averaging ~85 stars per day over 26 days since creation on 2026-04-20; the "soul-driven" architecture refers to persistent behavioral configuration rather than RAG-retrieved persona, a design distinction not present in any other project in this archive.
-
----
-
-### 20. [GammaLabTechnologies/harmonist](https://github.com/GammaLabTechnologies/harmonist) — ⭐ 1,710 (~+74/day avg)
-**Python** · `agents` `ai-agents` `llm` `orchestration` `multi-agent-framework`
-
-Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies. Averaging ~74 stars per day over 23 days since creation on 2026-04-23; the highest agent-count orchestration framework in this archive at 186 agents, with zero runtime dependencies making it the most portable option in today's top 20.
+Build a modern LLM from scratch — every line commented, explained simply. Fourteen days old at ~115/day; covers attention, tokenization, transformers, and LLaMA-style architecture with PyTorch. The most-starred LLM-education resource to debut in this archive's 30-day window.
 
 ---
 
@@ -152,20 +152,17 @@ Portable AI agent orchestration with mechanical protocol enforcement. 186 agents
 
 Created in the last 14 days:
 
-- [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) — ⭐ 385, born 2026-05-15
-  Provider-neutral Agent Skill design patterns for Codex, Claude Code, and agentic harness design. Created yesterday and already at 385 stars; the fastest debut by star count per day for a documentation-focused repository in this archive's 30-day window, arriving on the same day codegraph debuts — both signal a community turn toward formalizing rather than just extending Claude Code.
+- [nexu-io/html-anything](https://github.com/nexu-io/html-anything) — ⭐ 2,638, born 2026-05-11
+  Agentic HTML editor with 75 skills across 9 surfaces. 2,638 stars in 6 days — the fastest debut velocity for a UI-generation tool in this archive; companion to nexu-io/open-design, together representing the strongest coordinated product launch in the 30-day window.
 
-- [raiyanyahya/how-to-train-your-gpt](https://github.com/raiyanyahya/how-to-train-your-gpt) — ⭐ 1,582, born 2026-05-03
-  Build a modern LLM from scratch — every line commented, explained simply. 1,582 stars in 13 days; the most-starred LLM-education resource to debut in this archive's current window, covering attention, tokenization, transformers, and LLaMA-style architecture with PyTorch.
+- [strukto-ai/mirage](https://github.com/strukto-ai/mirage) — ⭐ 2,336, born 2026-05-06
+  Unified virtual filesystem for AI agents. 2,336 stars in 11 days; the only dedicated agent VFS in the current cohort, filling the gap between agent runtime and host filesystem that other frameworks bridge with ad-hoc shell wrappers.
 
-- [lightseekorg/tokenspeed](https://github.com/lightseekorg/tokenspeed) — ⭐ 1,028, born 2026-05-06
-  Speed-of-light LLM inference engine targeting Blackwell GPUs. 1,028 stars in 10 days; the first inference-speed project in this archive to debut with four-figure stars within two weeks, and the only Blackwell-GPU-aware engine alongside DeepSeek, Qwen, and Kimi model families.
+- [WenyuChiou/awesome-agentic-ai-zh](https://github.com/WenyuChiou/awesome-agentic-ai-zh) — ⭐ 1,489, born 2026-05-04
+  Agentic AI trilingual learning map. 1,489 stars in 13 days; the highest-velocity structured curriculum in this archive targeting Chinese-speaking developers, with explicit coverage of MCP and Claude Skills alongside LangGraph and agent memory.
 
-- [jmerelnyc/Photo-agents](https://github.com/jmerelnyc/Photo-agents) — ⭐ 873, born 2026-05-04
-  Autonomous self-evolving agents with vision-grounded layered memory and self-written skills for LLMs that operate your computer. 873 stars in 12 days; the self-writing skill architecture is the most structurally distinct feature among computer-use agents debuting this week.
-
-- [haydenbleasel/files-sdk](https://github.com/haydenbleasel/files-sdk) — ⭐ 718, born 2026-05-08
-  Unified storage SDK for AI agents across S3, R2, Google Cloud Storage, Cloudflare, and MinIO. 718 stars in 8 days; the only infrastructure-layer file access abstraction in the current New & Rising cohort with no close equivalent in this archive window.
+- [DenisSergeevitch/agents-best-practices](https://github.com/DenisSergeevitch/agents-best-practices) — ⭐ 638, born 2026-05-15
+  Provider-neutral agent skill design patterns for Codex, Claude Code, and agentic harness design. 638 stars in 2 days — the fastest-accelerating documentation-only repository in this 30-day window, arriving alongside codegraph and the nexu-io tools as part of a broader community turn toward formalizing agent development practice.
 
 ## Methodology
 
