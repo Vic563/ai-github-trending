@@ -1,150 +1,150 @@
-# AI GitHub Trending — 2026-07-21
+# AI GitHub Trending — 2026-07-22
 
 _Auto-updated daily at 7am ET. [Archive](./archive/)._
 
 ## Editor's Take
 
-bojieli/ai-agent-book erupted to +4,434 stars today — the highest single-day velocity this chart has recorded — as the Chinese-language companion repo for "深入理解 AI Agent：设计原理与工程实践" (Deep Understanding of AI Agent: Design Principles and Engineering Practice) went viral across Chinese developer communities. This is the clearest signal yet that structured educational content on agent design commands mass audience even as the tooling has matured significantly. tirth8205/code-review-graph nearly tripled its velocity from +663 yesterday to +1,833, the steepest acceleration on the chart; code-intelligence tooling that reduces context consumption for AI coding agents is the sleeper category of the week. Voice AI held for a third consecutive day with voicebox, moonshine, and transcribe.cpp all returning — what started as a one-day curiosity has hardened into a durable category, with the three repos covering studio/cloning, low-latency inference, and multi-model STT respectively as complementary layers. topoteretes/cognee entered fresh at +234 and joins Intuition-Lab/personal-model (11 days old, 973 stars) as a paired signal that agent memory is graduating from experimental feature to required infrastructure.
+Today's chart has two distinct stories running in parallel. The continuation story: bojieli/ai-agent-book held its commanding lead at +4,624 stars today (up from +4,434 yesterday), confirming the Chinese developer education wave is strengthening rather than fading, and diegosouzapw/OmniRoute had its best single day yet at +2,034, nearly doubling yesterday's +1,107 -- the AI gateway and routing layer is breaking out, not just spiking. The rotation story: the three-day voice AI streak (voicebox, moonshine, transcribe.cpp) has completely left the chart, replaced by a sharper infrastructure focus. ayghri/i-have-adhd enters at +1,866 -- the second-highest velocity today -- signaling that highly specialized, human-needs-adapted agent skills are becoming a category rather than one-off experiments. The tooling layer for running agents safely in production is also tightening its grip: elder-plinius/T3MP3ST (multi-agent red-teaming harness, 5k stars since July 2), oomol-lab/open-connector (auth gateway connecting 1,000+ SaaS providers to agents), and KnockOutEZ/wigolo (local-first MCP research, now three consecutive days on the chart) represent different corners of the same build-out -- the scaffolding developers need before they can deploy agents beyond the demo stage.
 
 ## Top 20
 
-### 1. [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — ⭐ 13,104 (+4,434)
+### 1. [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) — ⭐ 16,882 (+4,624)
 **Python** · `ai` `agent` `llm` `python` `chinese`
 
-Open-source companion repository for "深入理解 AI Agent：设计原理与工程实践" (Deep Understanding of AI Agent: Design Principles and Engineering Practice). By far today's velocity leader at +4,434 — the highest single-day gain on this chart — driven by viral spread in Chinese developer communities and a curriculum covering agent design from first principles through engineering practice.
+Open-source companion repository for "深入理解 AI Agent：设计原理与工程实践" (Deep Understanding of AI Agent: Design Principles and Engineering Practice). Velocity is accelerating from +4,434 yesterday to +4,624 today -- the Chinese developer education wave is the chart's dominant force for a second consecutive day, and the numbers suggest it is pulling new cohorts rather than recycling the same audience.
 
 ---
 
-### 2. [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) — ⭐ 24,156 (+1,833)
-**Python** · `mcp` `code-intelligence` `python` `local-first` `cli`
-
-Local-first code intelligence graph that maps your entire codebase and exposes it through MCP and CLI, reducing context consumption for AI coding tools. Velocity nearly tripled from +663 yesterday to +1,833 today — the steepest acceleration on this chart — signaling a second discovery wave as the initial audience amplified it outward.
-
----
-
-### 3. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — ⭐ 22,660 (+1,107)
+### 2. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) — ⭐ 24,284 (+2,034)
 **TypeScript** · `ai-gateway` `llm` `multi-provider` `typescript` `open-source`
 
-Free MIT-licensed AI gateway supporting 268+ providers and 500+ models including Claude, GPT, and Gemini. Was the #1 velocity repo yesterday at +1,343; today it slides to #3 at +1,107 as the chart reshuffled above it, but at 22.6k stars and still the cleanest open model-routing standard, it is not fading.
+Free MIT-licensed AI gateway supporting 268+ providers and 500+ models including Claude, GPT, and Gemini. Today's +2,034 is nearly double yesterday's +1,107 -- OmniRoute jumped from #3 to #2 and set its highest daily gain yet. The AI routing layer is having a genuine breakout day, likely driven by new integrations and growing adoption as teams consolidate multi-model workflows behind a single endpoint.
 
 ---
 
-### 4. [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) — ⭐ 135,168 (+862)
-**Shell** · `agents` `ai` `multi-agent` `agency` `workflows`
+### 3. [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) — ⭐ 25,031 (+1,925)
+**Python** · `mcp` `code-intelligence` `python` `local-first` `cli`
 
-Complete AI agency with specialized expert agents for various roles and task types, all in Shell. At 135k stars this is the largest repo on the chart; daily +862 on an already-enormous base suggests a sustained viral wave rather than a single spike, with fresh cohorts of developers being onboarded into multi-agent shell automation each day.
-
----
-
-### 5. [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) — ⭐ 41,136 (+823)
-**Python** · `ai` `machine-learning` `llm` `tutorial` `python`
-
-Hands-on curriculum for AI engineering, from fundamentals through production deployment. The education theme dominates today with ai-agent-book at #1 and this at #5 — a sign that developer teams are actively upskilling in parallel with shipping, and that structured curriculum content keeps pulling sustained star velocity regardless of how mature the tooling gets.
+Local-first code intelligence graph that maps your entire codebase and exposes it through MCP and CLI, reducing context consumption for AI coding tools. Holds at +1,925 today (up slightly from +1,833 yesterday) -- three days of sustained high velocity on a tool that addresses a real operational pain point: context window exhaustion in large codebases.
 
 ---
 
-### 6. [jamiepine/voicebox](https://github.com/jamiepine/voicebox) — ⭐ 44,815 (+821)
-**TypeScript** · `voice-ai` `ai` `audio` `typescript` `open-source`
+### 4. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) — ⭐ 7,558 (+1,866)
+**Python** · `ai` `coding-agent` `agent-skills` `python` `adhd`
 
-Open-source AI voice studio for voice cloning, dictation, and speech generation with a model-agnostic backend. Third consecutive day in the top 6; at +821 today versus +610 yesterday, voicebox is actually accelerating slightly rather than fading, suggesting the voice-studio category is building new audience rather than recycling the same one.
-
----
-
-### 7. [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) — ⭐ 2,819 (+689)
-**TypeScript** · `mcp` `agent` `local-first` `research` `ai`
-
-Web workspace for AI coding agents: local-first search, fetch, crawl, and structured research over MCP with no API keys, no cloud dependency, and no per-query cost. Up from +595 yesterday; the "no API keys required" plus MCP-native design continues to resonate as agent tooling costs become a real operational constraint.
+A coding agent skill for ADHD-friendly output formatting -- structured, scannable responses tuned to reduce cognitive overload when working with AI assistants. Entering the chart for the first time at +1,866, the second-highest velocity today, it signals that specialized human-needs-adapted agent skills are becoming a category: practitioners are building agents that work with different cognitive styles, not just more powerful agents.
 
 ---
 
-### 8. [1jehuang/jcode](https://github.com/1jehuang/jcode) — ⭐ 10,017 (+568)
+### 5. [koala73/worldmonitor](https://github.com/koala73/worldmonitor) — ⭐ 67,288 (+1,295)
+**TypeScript** · `ai` `news-aggregation` `real-time` `dashboard` `typescript`
+
+Real-time global intelligence dashboard with AI-powered news aggregation. At 67k total stars this is the chart's largest repo today, and +1,295 on an already-enormous base is notable -- it suggests a new audience discovery wave rather than a slow baseline drain. The AI-powered news intelligence category continues to pull consistent traffic.
+
+---
+
+### 6. [1jehuang/jcode](https://github.com/1jehuang/jcode) — ⭐ 10,583 (+843)
 **Rust** · `coding-agent` `ai` `rust` `llm` `harness`
 
-The most intelligent agent harness for code, implemented in Rust. The Rust choice is a deliberate performance signal — harness latency and memory footprint matter as coding-agent sessions grow longer and context windows fill up. One of a cluster of harness-layer projects trending today alongside elder-plinius/T3MP3ST and AstrBotDevs/AstrBot.
+The most intelligent agent harness for code, implemented in Rust. Velocity rose from +568 yesterday to +843 today -- the steepest proportional acceleration on the chart. The Rust choice is a deliberate performance signal: harness latency and memory footprint matter as coding-agent sessions grow longer and context windows fill, and the acceleration suggests word is spreading to the performance-focused segment of the developer community.
 
 ---
 
-### 9. [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map) — ⭐ 14,544 (+565)
-**Python** · `ai` `3d-reconstruction` `spatial` `machine-learning` `python`
+### 7. [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) — ⭐ 3,381 (+642)
+**TypeScript** · `mcp` `agent` `local-first` `research` `ai`
 
-Feed-forward 3D foundation model for reconstructing scenes from streaming data without iterative optimization. +565 today, virtually identical to yesterday — steady compounding rather than a spike, which in this chart usually means the project pulls a consistent specialist audience rather than riding a social media wave.
-
----
-
-### 10. [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) — ⭐ 18,826 (+458)
-**Python** · `llm` `inference` `gpu` `fine-tuning` `optimization`
-
-Flexible framework for heterogeneous LLM inference and fine-tuning targeting mixed-hardware setups where GPU and CPU work in tandem. Steady performer holding top-10 for multiple consecutive days; the consumer-hardware inference angle holds steady as practitioners try to run larger models on the hardware they already own.
+Web workspace for AI coding agents: local-first search, fetch, crawl, and structured research over MCP with no API keys, no cloud dependency, and no per-query cost. Third consecutive day on the chart, now at +642 vs +689 yesterday -- a shallow fade rather than a cliff, which usually means the project is building a durable niche audience rather than riding a single viral wave.
 
 ---
 
-### 11. [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) — ⭐ 10,413 (+410)
-**Python** · `ai` `cli` `agent` `python` `llm`
-
-Kimi Code CLI — Moonshot AI's official terminal agent for the Kimi model family. MoonshotAI is a frontier Chinese lab, and this entry signals that Chinese providers are shipping developer tooling at the same cadence as Western coding-agent leaders. The CLI agent race is now global.
-
----
-
-### 12. [handy-computer/transcribe.cpp](https://github.com/handy-computer/transcribe.cpp) — ⭐ 1,426 (+395)
-**C++** · `speech-to-text` `neural` `inference` `cpp` `ai`
-
-GGML-based speech-to-text inference supporting 16+ model families. Third consecutive day trending alongside voicebox and moonshine; together the three cover cloning/generation, low-latency voice-agent STT, and multi-model offline transcription — a complete voice stack represented simultaneously on one chart.
-
----
-
-### 13. [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) — ⭐ 37,299 (+317)
-**Python** · `ai` `agent` `llm` `chatbot` `python`
-
-AI Agent Assistant framework integrating IM platforms (WeChat, QQ, Discord, Telegram), multiple LLMs, and plugins into a unified agent layer. At 37k stars this is a large, mature project that keeps generating daily velocity — a sign of ongoing production adoption rather than discovery spikes.
-
----
-
-### 14. [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) — ⭐ 10,169 (+282)
-**C++** · `ai` `voice-agents` `speech-to-text` `cpp` `low-latency`
-
-Very low latency speech-to-text, intent recognition, and TTS targeting real-time voice agents. Moonshine's specific differentiation is latency — explicitly designed for agent loops where every millisecond of STT delay degrades the interaction. Part of the three-repo voice cluster trending for the third day.
-
----
-
-### 15. [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) — ⭐ 5,060 (~266/day)
+### 8. [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) — ⭐ 5,084 (~254/day avg since Jul 2)
 **TypeScript** · `agents` `ai` `multi-agent` `offensive-security` `redteam`
 
-Autonomous multi-agent red-teaming platform that coordinates AI agents for penetration testing and adversarial evaluation. Born 2026-07-02, averaging ~266 stars/day over 19 days; consistent velocity at this level after 2.5 weeks suggests genuine practitioner adoption in the security community rather than a curiosity spike.
+Autonomous red teaming platform and multi-agent offensive-security meta-harness. At 5k stars in 20 days, T3MP3ST is the strongest sustained performer from the GitHub Search API results today. The offensive-security angle is filling a real gap: as agent systems grow more autonomous, red-teaming them at the multi-agent level is no longer optional, and T3MP3ST is currently the most-starred repo addressing that problem.
 
 ---
 
-### 16. [topoteretes/cognee](https://github.com/topoteretes/cognee) — ⭐ 28,948 (+234)
-**Python** · `ai` `agent` `memory` `knowledge-graph` `python`
+### 9. [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) — ⭐ 37,690 (+416)
+**Python** · `ai` `agent` `multi-platform` `python` `chatbot`
 
-Open-source AI memory platform that gives agents persistent long-term memory via a structured knowledge graph. New entrant today; alongside Intuition-Lab/personal-model (11 days old, 973 stars) this makes two distinct agent-memory projects entering the chart in the same week — a threshold moment for the category becoming its own product tier.
-
----
-
-### 17. [hoainho/img2threejs](https://github.com/hoainho/img2threejs) — ⭐ 1,247 (~207/day)
-**Python** · `3d` `ai-agents` `claude-code` `computer-graphics` `generative`
-
-Rebuilds the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js scene — image-to-3D without diffusion infrastructure or model weights. Born 2026-07-15 (6 days ago), already at 1,247 stars at ~207/day; the "no weights, just code" approach makes it cheap to run and trivially modifiable.
+AI Agent Assistant and development framework that integrates across numerous messaging platforms. At 37k stars, a steady +416 today reflects baseline community health on a mature project -- the platform breadth continues to draw new integrators even as the repo is well past its initial viral phase.
 
 ---
 
-### 18. [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) — ⭐ 2,653 (~147/day)
-**TypeScript** · `agent` `ai` `ai-agent` `bun` `cli`
+### 10. [hoainho/img2threejs](https://github.com/hoainho/img2threejs) — ⭐ 1,752 (~250/day avg since Jul 15)
+**TypeScript** · `ai` `computer-vision` `threejs` `generative` `code-generation`
 
-Open-source AI workbench for scientific research: multi-agent hypothesis generation, literature review, experiment design, and computational notebooks in one interface. Born 2026-07-03, averaging ~147 stars/day over 18 days; the reference project for AI-for-science tooling and the highest-sustained-velocity entry in that niche.
-
----
-
-### 19. [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) — ⭐ 3,042 (~138/day)
-**TypeScript** · `agent-tools` `ai-agents` `api-gateway` `automation` `cli`
-
-Open-source auth gateway connecting 1,000+ SaaS providers to AI agents via SDK, CLI, MCP, HTTP, and OpenAPI. Born 2026-06-29, averaging ~138 stars/day over 22 days; the authentication bottleneck for agent-to-SaaS connections draws steady daily flow — boring but necessary infrastructure that every agent needs to operate in the real world.
+Rebuilds objects from reference images as code-only, procedural, quality-gated Three.js scenes -- AI-driven image-to-3D-code generation with automated scene testing. Seven days old at ~250 stars per day, it is today's fastest new entrant from the search API. Image-to-code pipelines for 3D content are an underserved niche and the quality-gate framing (testing generated scenes automatically) addresses the reliability gap that makes most AI code generation feel fragile.
 
 ---
 
-### 20. [Sahir619/fable-method](https://github.com/Sahir619/fable-method) — ⭐ 1,765 (~117/day)
-**Python** · `agent-skills` `ai-agents` `claude` `claude-code` `claude-md`
+### 11. [agegr/pi-web](https://github.com/agegr/pi-web) — ⭐ 1,898 (+298)
+**TypeScript** · `ai` `coding-agent` `web-ui` `typescript` `pi`
 
-The Fable Workflow (Think / Act / Prove) distilled into runnable agent skills any model can execute, with an eval harness that enforces correctness at each phase. Born 2026-07-06, averaging ~117 stars/day over 15 days; the most-watched agent-skills framework in the current run, particularly among practitioners enforcing structured reasoning across model switches.
+Web UI for the pi coding agent. Entering the trending chart at +298, it represents the growing pattern of coding agents acquiring dedicated browser UIs as they mature beyond pure CLI interactions -- developers want session visibility, history, and control surfaces without leaving the browser.
+
+---
+
+### 12. [earthtojake/text-to-cad](https://github.com/earthtojake/text-to-cad) — ⭐ 9,485 (+291)
+**JavaScript** · `agent` `cad` `robotics` `hardware` `javascript`
+
+Agent skills collection for CAD, robotics, and hardware design. At +291 today, it marks a meaningful moment: AI coding agent skills are branching beyond pure software into physical/hardware design. The same agent-skill pattern that drove software code generation is now being applied to CAD workflows, widening the ecosystem's surface area.
+
+---
+
+### 13. [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) — ⭐ 3,080 (~134/day avg since Jun 29)
+**TypeScript** · `ai-agents` `auth-gateway` `saas` `mcp` `open-source`
+
+Open-source auth gateway connecting 1,000+ SaaS providers to AI agents through standardized interfaces. 3k stars in 23 days is a strong signal for infrastructure tooling, which typically grows slower than agent applications. Solving authentication for agents connecting to external services is foundational work that every production deployment eventually hits.
+
+---
+
+### 14. [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — ⭐ 479 (~160/day avg since Jul 19)
+**JavaScript** · `ai` `video-generation` `claude-code` `agent-skills` `remotion`
+
+AI video skill for Claude Code and Codex that produces cinematic product videos with Remotion -- automated shot design, motion, and rendering from a text brief. Three days old at ~160 stars per day, it is the freshest high-velocity entrant on today's chart and part of a broader cluster of AI video tooling (alongside FableCut and OpenChatCut from the search results) that suggests video generation via agent skills is entering its own build-out phase.
+
+---
+
+### 15. [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) — ⭐ 2,673 (~140/day avg since Jul 3)
+**TypeScript** · `agent` `ai` `llm` `science` `research-tools`
+
+Open-source AI workbench for scientific research: agent-driven experiment design, literature search, and reproducible compute. At 2,673 stars in 19 days it is the strongest entry in the AI-for-science category. Multiple competing repos appeared in today's search results (aipoch/open-science, ai4s-research/open-science, xuzhougeng/wisp-science), confirming genuine demand rather than a single project's marketing push.
+
+---
+
+### 16. [Kritt-ai/open-kritt](https://github.com/Kritt-ai/open-kritt) — ⭐ 287 (~143/day avg since Jul 20)
+**JavaScript** · `agent` `agents` `ai` `bug-bounty` `security`
+
+Orchestrates AI agents to find real vulnerabilities in code. Two days old at ~143 stars per day -- the most recent entrant on today's chart and riding significant recency momentum. The combination of multi-agent orchestration and security research targets bug-bounty practitioners, an audience that moves fast on useful tooling and tends to amplify through private channels before broader discovery.
+
+---
+
+### 17. [Sahir619/fable-method](https://github.com/Sahir619/fable-method) — ⭐ 1,779 (~111/day avg since Jul 6)
+**Python** · `agent-skills` `ai-agents` `llm` `claude` `evaluation`
+
+Distills the Fable Workflow from Claude Fable 5 into portable skills any model can run, plus the evaluation harness that validates correctness (think/act/prove loop). At 1,779 stars in 16 days it has found an audience among practitioners who want structured, testable agent workflows rather than one-shot prompts -- the eval harness addresses a gap that most agent skill libraries leave open.
+
+---
+
+### 18. [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) — ⭐ 1,205 (~100/day avg since Jul 10)
+**Python** · `llm` `guide` `workbuddy` `codex` `python`
+
+Practical, open-source guide to mastering WorkBuddy through real-world workflows, with a bilingual Chinese edition. 1,205 stars in 12 days with a recency bonus confirms that well-structured guide repositories for specific LLM tools remain high-demand -- the education pattern driving bojieli/ai-agent-book at the top of the chart scales down to more focused tools too.
+
+---
+
+### 19. [Intuition-Lab/personal-model](https://github.com/Intuition-Lab/personal-model) — ⭐ 1,057 (~88/day avg since Jul 10)
+**Python** · `ai` `mcp` `personal-ai` `identity` `local-first`
+
+Build your HUMAN.md -- a structured personal context document that lets AI agents understand who you are, how you work, and what you care about. 1,057 stars in 12 days suggests real appetite for persistent personal context across agent sessions. As CLAUDE.md became standard for project context, HUMAN.md aims to do the same for individual identity -- a convention waiting to be standardized.
+
+---
+
+### 20. [mereyabdenbekuly-ctrl/clodex-ide](https://github.com/mereyabdenbekuly-ctrl/clodex-ide) — ⭐ 849 (~85/day avg since Jul 12)
+**TypeScript** · `ai` `coding-agent` `ide` `local-first` `zero-trust`
+
+Local-first, zero-trust agentic IDE for verifiable autonomous software development. Ten days old at ~85 stars per day with a recency boost, it occupies the same space as established coding IDEs but with agent-first architecture and cryptographic verifiability of agent actions -- targeting teams that need audit trails for AI-written code and cannot use cloud-hosted options.
 
 ---
 
@@ -152,24 +152,21 @@ The Fable Workflow (Think / Act / Prove) distilled into runnable agent skills an
 
 Created in the last 14 days:
 
-- [hoainho/img2threejs](https://github.com/hoainho/img2threejs) — ⭐ 1,247, born 2026-07-15
-  Rebuilds reference images as procedural, animation-ready Three.js scenes — image-to-3D without diffusion; 1,247 stars in 6 days at ~207/day.
+- [hoainho/img2threejs](https://github.com/hoainho/img2threejs) — ⭐ 1,752, born 2026-07-15
+  Rebuilds objects from reference images as code-only procedural Three.js scenes. The quality-gate framing (automated scene testing) makes it more than a demo generator.
 
-- [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) — ⭐ 1,174, born 2026-07-10
-  Practical open-source guide to mastering WorkBuddy through real-world workflows, skill patterns, MCP integration, and multi-agent orchestration (bilingual EN/Chinese); 1,174 stars in 11 days.
+- [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) — ⭐ 1,205, born 2026-07-10
+  Practical bilingual guide to WorkBuddy real-world workflows. Confirms that structured LLM-tool guides sustain high velocity well beyond launch day.
 
-- [Intuition-Lab/personal-model](https://github.com/Intuition-Lab/personal-model) — ⭐ 973, born 2026-07-10
-  Builds a HUMAN.md — a structured, machine-readable profile of a person's context and preferences that AI agents load instead of requiring repeated re-explanation each session; 973 stars in 11 days.
+- [penecho/penecho](https://github.com/penecho/penecho) — ⭐ 659, born 2026-07-14
+  Shared canvas for handwriting, equations, diagrams, and spatial reasoning with AI. A visual-first interface for multimodal reasoning beyond the chat box.
 
-- [mereyabdenbekuly-ctrl/clodex-ide](https://github.com/mereyabdenbekuly-ctrl/clodex-ide) — ⭐ 849, born 2026-07-12
-  Zero-trust agentic IDE where every agent action is cryptographically accountable; 849 stars in 9 days.
+- [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — ⭐ 479, born 2026-07-19
+  AI video skill producing cinematic product videos via Remotion and Claude Code. Three days old; part of a growing cluster of agent-driven video production tools.
 
-- [vshulcz/deja-vu](https://github.com/vshulcz/deja-vu) — ⭐ 428, born 2026-07-14
-  Retroactive MCP recall over Claude Code, Codex, Cursor, and aider session logs — one zero-dependency binary, fully local; 428 stars in 7 days.
-
-- [PromptPartner/agentsmith](https://github.com/PromptPartner/agentsmith) — ⭐ 314, born 2026-07-16
-  Universal model-agnostic operating harness for Claude, Codex, and Gemini agents via a single setup script with modular work-type profiles; 314 stars in 5 days.
+- [Kritt-ai/open-kritt](https://github.com/Kritt-ai/open-kritt) — ⭐ 287, born 2026-07-20
+  Orchestrates AI agents to find real vulnerabilities in code. Two days old; the security-research and multi-agent combination is narrow but high-signal.
 
 ## Methodology
 
-Sources: github.com/trending (daily) + GitHub Search API (AI topics: ai, llm, agents, ai-agents, generative-ai, rag, machine-learning, mcp; created <30d). Ranked by today's star velocity (trending page delta for Source 1; stars/days-since-created for Source 2), with recency bonus for repos <14 days old and editorial judgment for quality. Generated by a scheduled Claude agent at 7am ET daily.
+Sources: github.com/trending (daily) + GitHub Search API (AI topics: ai, llm, agents, ai-agents, generative-ai, rag, machine-learning, mcp; created <30d). Ranked by today's star velocity, recency bonus for repos <14 days old, and editorial judgment. Source 2 velocities shown as estimated daily average (stars / days since created) where today's delta is unavailable. Generated by a scheduled Claude agent at 7am ET daily.
