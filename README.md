@@ -1,150 +1,150 @@
-# AI GitHub Trending — 2026-07-28
+# AI GitHub Trending — 2026-07-29
 
 _Auto-updated daily at 7am ET. [Archive](./archive/)._
 
 ## Editor's Take
 
-alibaba/open-code-review, which drove the chart for four straight days at accelerating velocity, is absent today — the typical arc after a focused discovery surge exhausts its initial cohort. In its place, video AI is the dominant category by a wide margin: img2threejs logged an implied +885 stars today (its highest single-day gain in 13 days on the chart), bradautomates/claude-video added +434, and video-shotcraft added +293, together accounting for more than a third of the top-20's total daily velocity. The more structurally interesting signal is the established-project surge: moeru-ai/airi (+572, 44K stars), andrewyng/aisuite (+185, 15K stars), and huggingface/speech-to-speech (+177, 6.7K stars) are not new repos — they are well-tested infrastructure projects that practitioners are apparently rediscovering and sharing on the same day, suggesting organic conversation-driven amplification rather than a launch event. 0xwilliamortiz/openclaude-improved, two days old with 577 stars and the pitch "runs anywhere, uses anything," is the fastest new entrant in weeks; its model-agnostic framing — Anthropic, Gemini, OpenRouter in one binary — positions it directly against tools locked to a single provider. virgiliojr94/book-to-skill's trending appearance at +366 is a quiet but telling indicator that practitioners are now actively packaging their reference libraries into agent-ready skills rather than prompting against raw PDFs.
+alibaba/open-code-review disappeared from yesterday's chart and came back today at +918 — the highest single-day velocity on today's chart — suggesting a feature release or content push rather than organic recovery. The day's structural story is voice AI becoming a contested category: microsoft/VibeVoice (51K stars, +332) and huggingface/speech-to-speech (+227) both trending on the same day signals practitioners are now actively evaluating alternatives, not just bookmarking one. moeru-ai/airi continues to accelerate — +797 today versus +572 yesterday on a 45K-star base — which at this scale is more consistent with social amplification than with a code release. MoonshotAI/FlashKDA is the chart's most technically specific entry: Moonshot AI releasing production-grade Delta Attention kernels directly to GitHub trending means the model infrastructure market is watching open-source kernel work in real time. The lower chart looks nearly identical to yesterday's, with the same agent-tooling and coding-agent infrastructure projects accumulating steadily — that continuity is itself a signal that the harness-engineering ecosystem has moved from discovery into sustained adoption.
 
 ## Top 20
 
-### 1. [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) — ⭐ 7,340 (+885)
-**Python** · `3d` `ai-agents` `claude-code` `computer-graphics` `generative`
+### 1. [alibaba/open-code-review](https://github.com/alibaba/open-code-review) — ⭐ 15,671 (+918)
+**Go** · `llm` `code-review` `agent` `ci` `golang`
 
-Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. 13 days old and today's implied +885 is its highest single-day gain yet — the normal new-repo decay curve has not appeared. The quality gate (automated rendering verification before output is accepted) is the architectural differentiator: generating plausible 3D geometry is table stakes, verifying that the model renders correctly is not.
+Hybrid architecture code review tool combining deterministic analysis pipelines with an LLM Agent layer. Back on the chart after one day absent — yesterday's editor noted it had driven the chart for four straight days before disappearing. Today's +918 is its strongest single-day gain yet; a feature release or external content push is the most likely trigger for the comeback.
 
 ---
 
-### 2. [moeru-ai/airi](https://github.com/moeru-ai/airi) — ⭐ 44,453 (+572)
+### 2. [moeru-ai/airi](https://github.com/moeru-ai/airi) — ⭐ 45,120 (+797)
 **TypeScript** · `ai` `companion` `voice` `typescript` `llm`
 
-Self-hosted, user-owned AI companion platform with real-time voice chat and gaming support. At 44K stars this is the most established project in today's top 20 by a wide margin, yet it added +572 — an acceleration from yesterday's +554 on an already-large base. The "you-owned" framing deliberately contrasts with cloud-hosted companion services that retain user data server-side; the velocity uptick suggests a feature release or integration reaching a new audience beyond its existing user base.
+Self-hosted, user-owned AI companion platform with real-time voice chat and gaming support. +797 today versus +572 yesterday — accelerating on a 45K-star base. At this size, acceleration is unusual and typically requires viral social amplification rather than incremental feature adoption.
 
 ---
 
-### 3. [bradautomates/claude-video](https://github.com/bradautomates/claude-video) — ⭐ 11,563 (+434)
-**Python** · `claude` `video` `llm` `multimodal` `python`
+### 3. [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) — ⭐ 7,913 (+573)
+**Python** · `3d` `ai-agents` `claude-code` `computer-graphics` `generative`
 
-Enable Claude (and any LLM) to analyze videos through frame extraction and transcription integration. +434 today continues a multi-day run. This repo and HUANGCHIHHUNGLeo/claude-real-video (#20) solve the same underlying problem — feeding video to language models efficiently — with bradautomates taking the higher-level approach (scene analysis, speech transcription) and claude-real-video focusing on deduplicated frame extraction. The category is commercially validated; practitioners with video assets are actively evaluating both.
+Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. 14 days old and still charting in the top 3; yesterday it posted +885 (its peak), today +573 — a normal deceleration but still above nearly everything else. The quality gate (automated rendering verification before accepting output) remains the architectural differentiator.
 
 ---
 
-### 4. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — ⭐ 10,678 (+366)
+### 4. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) — ⭐ 12,108 (+423)
 **Python** · `ai` `skills` `llm` `pdf` `python`
 
-Convert technical book PDFs into AI-ready skills for study and reference. +366 in trending today — a repo that packages static reference material into queryable agent skills rather than leaving it as raw text for LLMs to parse. The implicit hypothesis is that structured skill extraction from PDFs produces better agent behavior than naive RAG over the same content. It addresses a real friction point: practitioners with extensive reference libraries often get inconsistent results when agents search raw documents.
+Convert technical book PDFs into AI-ready skills for study and reference. +423 today versus +366 yesterday — a modest acceleration consistent with the idea spreading through word of mouth rather than with a specific launch event. The implicit hypothesis, that structured skill extraction from PDFs produces better agent behavior than naive RAG over the same content, continues to resonate with practitioners managing large reference libraries.
 
 ---
 
-### 5. [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — ⭐ 2,408 (+293)
-**TypeScript** · `agent-skills` `ai-agents` `ai-video` `claude-code` `claude-code-skills`
+### 5. [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice) — ⭐ 51,038 (+332)
+**Python** · `voice` `ai` `speech` `open-source` `python`
 
-AI video skill for Claude Code and Codex: 106 shot recipe cards, 161 motion previews, a production-ready Remotion template. 9 days old at +293 implied today. The shot-recipe model — structured composable building blocks rather than open-ended video generation — gives agents a vocabulary of cinematic decisions rather than a blank canvas, which is why it lands differently with practitioners than generic text-to-video tools.
-
----
-
-### 6. [0xwilliamortiz/openclaude-improved](https://github.com/0xwilliamortiz/openclaude-improved) — ⭐ 577 (~289/day avg)
-**TypeScript** · `agentic-ai` `ai-agent` `ai-coding` `claude` `mcp`
-
-Runs anywhere, uses anything — a coding agent that works with Anthropic, Gemini, OpenRouter, and any OpenAI-compatible endpoint through a single CLI and MCP integration. 2 days old at ~289 stars per day, making it the fastest new entry on the chart in recent weeks. The model-agnostic positioning is a direct appeal to practitioners fatigued by tool-specific agents; the single binary spanning providers is the concrete differentiator.
+Open-Source Frontier Voice AI from Microsoft. A new chart entrant today at 51K stars and +332; combined with huggingface/speech-to-speech at +227, voice AI is the most active category by new entrant count. Microsoft's "frontier" positioning suggests an intent to be the reference implementation practitioners benchmark against closed commercial alternatives.
 
 ---
 
-### 7. [makecindy/cindy](https://github.com/makecindy/cindy) — ⭐ 948 (+189)
-**TypeScript** · `agent` `ai-agent` `ai-assistant` `android` `claude-code`
-
-"Consider it done" — an open-source AI agent that works out of the box, with cross-platform Android support. 6 days old at +189 implied today (was 759 yesterday). The plain-language positioning targets practitioners who want a working agent without harness configuration overhead; the Android support distinguishes it from the field of desktop-only agent tools. At this pace it crossed 900 stars before its first week ended.
-
----
-
-### 8. [andrewyng/aisuite](https://github.com/andrewyng/aisuite) — ⭐ 15,554 (+185)
-**Python** · `ai` `llm` `generative-ai` `python`
-
-Simple, unified interface to multiple Generative AI providers from Andrew Ng's team. +185 trending today on a 15K-star established library — the kind of spike that typically follows a lecture reference, blog post, or practitioner recommendation circulating on social media rather than a new feature release. As the most prominent multi-provider abstraction library, aisuite tends to benefit from the broader trend of practitioners evaluating models against each other, which has accelerated alongside new model releases this month.
-
----
-
-### 9. [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — ⭐ 6,734 (+177)
+### 6. [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) — ⭐ 7,576 (+227)
 **Python** · `voice` `llm` `agents` `local` `open-source`
 
-Build local voice agents with open-source models — an end-to-end speech-to-speech pipeline using freely available models for STT, LLM, and TTS. +177 trending today from HuggingFace, whose repos tend to spike when a specific model combination in the pipeline achieves quality parity with commercial alternatives. Local voice agents are a category where the gap between open and closed has been closing fast; this repo is the reference implementation practitioners point to when evaluating whether open-source is viable for production voice use cases.
+Build local voice agents with open-source models — an end-to-end speech-to-speech pipeline using freely available models for STT, LLM, and TTS. +227 today versus +177 yesterday — also accelerating. With microsoft/VibeVoice entering the chart the same day, practitioners are now tracking two well-resourced open voice implementations simultaneously, which typically signals an active comparison cycle.
 
 ---
 
-### 10. [oomol-lab/open-connector](https://github.com/oomol-lab/open-connector) — ⭐ 3,419 (+42)
-**TypeScript** · `agent-tools` `ai-agents` `api-gateway` `automation` `mcp`
+### 7. [MoonshotAI/FlashKDA](https://github.com/MoonshotAI/FlashKDA) — ⭐ 883 (+216)
+**CUDA** · `attention` `kimi` `cuda` `transformer` `inference`
 
-Open-source auth gateway connecting 1,000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI. +42 today on a 3,419-star base — velocity has settled from its peak but the project continues accumulating. Every production agent deployment eventually hits the authentication wall when calling external services; open-connector solves it once rather than per-integration, which is why it maintains steady adoption among teams moving agents from prototype to production.
-
----
-
-### 11. [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) — ⭐ 2,903 (+40)
-**TypeScript** · `agent` `ai` `ai-agent` `bun` `cli`
-
-The open-source AI workbench for scientific research. +40 today; the highest-starred entry in the AI-for-science workbench category, which now has at least four distinct competing implementations. Category demand is confirmed — the question is which implementation practitioners standardize on for different research contexts, and openscience's early lead in total stars gives it a network advantage in community-contributed integrations.
+High-performance Kimi Delta Attention kernels from MoonshotAI. A new chart entrant with the most technically specific positioning in today's top 20: kernel-level optimization for production inference, not a tool or framework. Moonshot AI releasing this openly signals that the model infrastructure layer is increasingly contested at the open-source level, beyond just the product level.
 
 ---
 
-### 12. [penecho/penecho](https://github.com/penecho/penecho) — ⭐ 1,757 (+40)
-**JavaScript** · `ai` `canvas` `claude` `codex` `education`
+### 8. [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — ⭐ 2,613 (+205)
+**TypeScript** · `agent-skills` `ai-agents` `ai-video` `claude-code` `remotion`
 
-Think with AI beyond the chat box — a shared canvas for handwriting, equations, diagrams, and spatial reasoning with Claude and Codex. +40 today compared to a ~132/day average over its first two weeks; velocity is decelerating normally after the initial discovery spike but the repo has found a consistent daily audience. The spatial-reasoning angle remains differentiated: some problems genuinely think better on a whiteboard than in a conversation thread.
-
----
-
-### 13. [icebird1998/drawio-scientific-illustrator](https://github.com/icebird1998/drawio-scientific-illustrator) — ⭐ 1,017 (~64/day avg)
-**JavaScript** · `codex` `diagrams` `drawio` `mcp` `scientific-illustration`
-
-Live MCP control of the visible draw.io canvas for step-by-step scientific illustration inside Codex. 16 days old at ~64 stars per day — a genuinely niche use case that has found a focused audience. The MCP integration is the key architectural choice: rather than generating images, it drives the actual draw.io canvas interactively, so the output is an editable diagram rather than a raster image and the practitioner retains full control at each step.
+AI video skill for Claude Code and Codex: 106 shot recipe cards, 161 motion previews, a production-ready Remotion template. +205 today versus +293 yesterday — decelerating slightly, typical for a 10-day-old repo, but still among the top daily gainers. The shot-recipe model — structured composable cinematic building blocks rather than open-ended generation — continues to differentiate from generic text-to-video tools.
 
 ---
 
-### 14. [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) — ⭐ 5,269 (+26)
-**TypeScript** · `agents` `ai` `multi-agent` `offensive-security` `redteam`
-
-Autonomous red teaming platform and multi-agent offensive-security meta-harness. +26 today — a significant deceleration from its ~210/day peak — but at 5,269 stars this is the most-starred offensive-security AI agent on the chart by a wide margin. Security practitioners adopt tools slowly and through careful evaluation; sustained multi-week accumulation at any positive rate signals that the tool is passing real validation cycles in security teams, not just getting starred and shelved.
-
----
-
-### 15. [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) — ⭐ 1,364 (+32)
+### 9. [AlephAITech/WorkBuddyGuide](https://github.com/AlephAITech/WorkBuddyGuide) — ⭐ 1,509 (+145)
 **Python** · `codex` `guide` `llm` `workbuddy`
 
-A practical, open-source guide to mastering WorkBuddy through real-world workflows. +32 today at 18 days old. Structured guide repos targeting specific AI coding tools are a reliable demand signal — practitioners who adopt a tool exhaust its official documentation quickly and seek curated workflow examples. The consistency here (+78/day average initially, settling at +32) suggests a genuine audience in active evaluation rather than a one-time launch spike.
+A practical, open-source guide to mastering WorkBuddy through real-world workflows. +145 today versus +32 yesterday — a significant acceleration that suggests fresh discovery by a new cohort rather than a steady trickle. Structured guide repos for AI coding tools tend to spike when a specific workflow example spreads through a practitioner community.
 
 ---
 
-### 16. [Sahir619/fable-method](https://github.com/Sahir619/fable-method) — ⭐ 1,952 (+15)
-**Python** · `agent-skills` `ai-agents` `claude` `claude-code` `claude-md`
+### 10. [icebird1998/drawio-scientific-illustrator](https://github.com/icebird1998/drawio-scientific-illustrator) — ⭐ 1,157 (+140)
+**JavaScript** · `codex` `diagrams` `drawio` `mcp` `scientific-illustration`
 
-The Fable Workflow — the structured think/act/prove loop from Claude Fable 5 — distilled into portable skills any model can run, with the eval harness that validates correctness. +15 today; velocity has decelerated from its ~92/day peak. The bundled eval harness remains the differentiator: most agent-skill libraries ship the skill pattern but not the test suite that confirms it works on a different model.
-
----
-
-### 17. [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) — ⭐ 576 (~44/day avg)
-**TypeScript** · `agent-skills` `agentic-ai` `ai-video-editor` `claude-code` `mcp`
-
-Local-first conversational AI video editor with a professional multi-track timeline, Agent Skills integration, MCP control, and Remotion-powered rendering. 13 days old at ~44 stars per day. The multi-track timeline is the differentiator from simpler AI video tools: this is a real NLE that agents can drive rather than a simplified clip assembler, which matters for practitioners building production video pipelines.
+Live MCP control of the visible draw.io canvas for step-by-step scientific illustration inside Codex. +140 today versus a typical +64/day — a clear acceleration. The MCP integration is the architectural differentiator: output is an editable diagram, not a raster image, which is why this repo sustains interest beyond the initial discovery spike.
 
 ---
 
-### 18. [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) — ⭐ 1,042 (~45/day avg)
-**TypeScript** · `ai-agent` `fintech` `llm` `mcp` `stock-market`
+### 11. [deepfakes/faceswap](https://github.com/deepfakes/faceswap) — ⭐ 55,954 (+135)
+**Python** · `deep-learning` `computer-vision` `face-swap` `neural-network` `python`
 
-A personal trading research agent for A-shares, US stocks, and Hong Kong stocks — daily review, news radar, individual stock data, sector center, portfolio tracking, and research records, all via MCP. 23 days old at ~45 stars per day. The MCP architecture means the research agent can pull live market data into any compatible coding agent rather than running as a standalone tool — a meaningful distribution choice for practitioners who already have a trusted agent setup.
-
----
-
-### 19. [Intuition-Lab/personal-model](https://github.com/Intuition-Lab/personal-model) — ⭐ 1,239 (+10)
-**Python** · `agent-memory` `local-first` `macos` `mcp` `python`
-
-Build your HUMAN.md — a personal model of yourself that AI agents can query over MCP before starting work. +10 today at 18 days old; velocity has settled significantly. The framing inverts typical agent memory: rather than agents remembering what they have done, this makes agents know who they are working for before they start. The HUMAN.md concept — a human-readable, agent-queryable profile — has attracted interest as a complement to CLAUDE.md/AGENTS.md project context files.
+Deepfakes Software For All — the most established deep-learning project on today's chart at 55K+ stars. A spike of +135 on a repo this old is rarely organic; it is typically triggered by a specific external reference (news article, social post, academic citation) rather than a new feature release. At 55K stars, any sudden uptick is a signal about broader public attention cycles around synthetic media.
 
 ---
 
-### 20. [HUANGCHIHHUNGLeo/claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video) — ⭐ 1,876 (+8)
+### 12. [makecindy/cindy](https://github.com/makecindy/cindy) — ⭐ 1,071 (+123)
+**TypeScript** · `agent` `ai-agent` `ai-assistant` `android` `claude-code`
+
+"Consider it done" — an open-source AI agent that works out of the box, with cross-platform Android support. +123 today versus +189 yesterday — decelerating normally for a 7-day-old repo, but still among the top gainers. The Android support remains the single differentiator from the field of desktop-only agent tools.
+
+---
+
+### 13. [different-ai/openwork](https://github.com/different-ai/openwork) — ⭐ 17,401 (+58)
+**TypeScript** · `ai` `cowork` `open-source` `typescript` `agent`
+
+The open-source alternative to Claude Cowork. A new chart entrant today at 17K stars and +58 — a high base for a trending entry, suggesting the project has been accumulating quietly before reaching discovery velocity. Its positioning as a direct Cowork alternative puts it in the category of established-product challengers rather than novel tools.
+
+---
+
+### 14. [synthetic-sciences/openscience](https://github.com/synthetic-sciences/openscience) — ⭐ 2,922 (+19)
+**TypeScript** · `agent` `ai` `ai-agent` `bun` `cli`
+
+The open-source AI workbench for scientific research. +19 today; velocity has settled into steady daily accumulation. Still the highest-starred entry in the AI-for-science workbench category, with a network advantage in community-contributed integrations from its early lead.
+
+---
+
+### 15. [penecho/penecho](https://github.com/penecho/penecho) — ⭐ 1,779 (+22)
+**JavaScript** · `ai` `canvas` `claude` `codex` `education`
+
+Think with AI beyond the chat box — a shared canvas for handwriting, equations, diagrams, and spatial reasoning with Claude and Codex. +22 today; velocity has settled from the initial discovery spike but maintains a consistent daily audience. The spatial-reasoning angle continues to differentiate from standard chatbot interfaces.
+
+---
+
+### 16. [HUANGCHIHHUNGLeo/claude-real-video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video) — ⭐ 1,896 (+20)
 **Python** · `claude` `ffmpeg` `keyframe-extraction` `multimodal` `python`
 
-Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames plus transcript, from a URL or local file. +8 today; daily gain is minimal but the project continues accumulating steadily. The deduplication insight is the practical contribution: feeding every frame to an LLM is expensive and redundant; extracting only frames that carry new visual information is a concrete cost and latency reduction. With bradautomates/claude-video (#3) now at 11K stars, the category is commercially validated at the higher abstraction level, and this repo remains relevant for practitioners who want more granular frame-level control.
+Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames plus transcript, from a URL or local file. +20 today; minimal velocity but consistent accumulation. The deduplication insight (extracting only visually distinct frames) remains the practical cost-reduction contribution that distinguishes it from naive frame-sampling approaches.
+
+---
+
+### 17. [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) — ⭐ 5,286 (+17)
+**TypeScript** · `agents` `ai` `multi-agent` `offensive-security` `redteam`
+
+Autonomous red teaming platform and multi-agent offensive-security meta-harness. +17 today — continued deceleration from its ~210/day peak, but steady. At 5,286 stars it remains the most-starred offensive-security AI agent on the chart and continues to accumulate through the slow validation cycles typical of security tooling adoption.
+
+---
+
+### 18. [Sahir619/fable-method](https://github.com/Sahir619/fable-method) — ⭐ 1,963 (+11)
+**Python** · `agent-skills` `ai-agents` `claude` `claude-code` `claude-md`
+
+The Fable Workflow — the structured think/act/prove loop from Claude Fable 5 — distilled into portable skills any model can run, with the eval harness that validates correctness. +11 today; velocity has settled. The bundled eval harness remains the differentiator: most agent-skill libraries ship the pattern but not the test suite that confirms it works on a different model.
+
+---
+
+### 19. [simonlin1212/Vibe-Research](https://github.com/simonlin1212/Vibe-Research) — ⭐ 1,055 (+13)
+**TypeScript** · `ai-agent` `fintech` `llm` `mcp` `stock-market`
+
+A personal trading research agent for A-shares, US stocks, and Hong Kong stocks — daily review, news radar, individual stock data, sector center, portfolio tracking, and research records, all via MCP. +13 today; steady daily accumulation as practitioners in the fintech-adjacent AI space continue to discover it.
+
+---
+
+### 20. [Intuition-Lab/personal-model](https://github.com/Intuition-Lab/personal-model) — ⭐ 1,251 (+12)
+**Python** · `agent-memory` `local-first` `macos` `mcp` `personal-ai`
+
+Build your HUMAN.md — a personal model of yourself that AI agents can query over MCP before starting work. +12 today; the HUMAN.md concept continues to attract interest as a complement to CLAUDE.md/AGENTS.md project context files. The framing inverts typical agent memory: rather than agents remembering what they have done, this makes agents know who they are working for before they start.
 
 ---
 
@@ -152,20 +152,20 @@ Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated fra
 
 Created in the last 14 days:
 
-- [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) — ⭐ 7,340, born 2026-07-15
-  Procedural, quality-gated image-to-Three.js model generation. Implied +885 today — its best single day yet, with no sign of the decay curve that normally appears at day 13.
+- [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) — ⭐ 7,913, born 2026-07-15
+  Procedural, quality-gated image-to-Three.js model generation. +573 today — 14 days old and still charting in the top 3 by daily velocity.
 
-- [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — ⭐ 2,408, born 2026-07-19
-  106 shot recipe cards and 161 motion previews for agent-driven cinematic product video via Remotion. 9 days old at +293 implied today.
+- [Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) — ⭐ 2,613, born 2026-07-19
+  106 shot recipe cards and 161 motion previews for agent-driven cinematic product video via Remotion. 10 days old at +205 today.
 
-- [makecindy/cindy](https://github.com/makecindy/cindy) — ⭐ 948, born 2026-07-22
-  Open-source AI agent that works out of the box with Android support. 6 days old at +189 implied today; crossed 900 stars before its first week ended.
+- [makecindy/cindy](https://github.com/makecindy/cindy) — ⭐ 1,071, born 2026-07-22
+  Open-source AI agent with Android support. 7 days old at +123 today.
 
-- [0xwilliamortiz/openclaude-improved](https://github.com/0xwilliamortiz/openclaude-improved) — ⭐ 577, born 2026-07-26
-  Model-agnostic coding agent supporting Anthropic, Gemini, OpenRouter, and any OpenAI-compatible endpoint. 2 days old at ~289/day — the fastest new entrant on the chart in recent weeks.
+- [0xwilliamortiz/openclaude-improved](https://github.com/0xwilliamortiz/openclaude-improved) — ⭐ 587, born 2026-07-26
+  Model-agnostic coding agent supporting Anthropic, Gemini, OpenRouter, and any OpenAI-compatible endpoint. 3 days old; initial velocity spike has settled to +10 today.
 
-- [0xsline/OpenChatCut](https://github.com/0xsline/OpenChatCut) — ⭐ 576, born 2026-07-15
-  Local-first conversational AI video editor with professional multi-track timeline, MCP integration, and Remotion rendering. 13 days old at ~44/day.
+- [worldwonderer/novel-to-game](https://github.com/worldwonderer/novel-to-game) — ⭐ 395, born 2026-07-18
+  Turn any novel or story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex, and Kimi Code. 11 days old.
 
 ## Methodology
 
